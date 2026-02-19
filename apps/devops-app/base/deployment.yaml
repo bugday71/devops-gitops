@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: asia-northeast3-docker.pkg.dev/k8s-test-486501/devops-repo/nginx-sample:1
+          image: asia-northeast3-docker.pkg.dev/k8s-test-486501/devops-repo/nginx-sample:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
